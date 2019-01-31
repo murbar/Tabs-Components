@@ -1,3 +1,7 @@
+// class Tabs {
+// may come back to this
+// }
+
 class TabLink {
   constructor(element) {
     // Assign this.element to the passed in DOM element
