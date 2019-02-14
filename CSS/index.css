@@ -21,6 +21,7 @@
 }
 .dropdown .dropdown-content {
   width: 100%;
+  max-height: 100vh;
   position: absolute;
   background-color: #ffffff;
   display: flex;
@@ -28,6 +29,7 @@
   align-items: center;
   margin-top: 10px;
   border: 2.5px solid #931d25;
+  transition: all 0.2s;
 }
 .dropdown .dropdown-link {
   width: 100%;
@@ -42,7 +44,8 @@
   background-color: #931d25;
 }
 .dropdown .dropdown-hidden {
-  display: none;
+  opacity: 0;
+  max-height: 0;
 }
 .tabs {
   width: 100%;
